@@ -50,13 +50,13 @@ export const POST = async (req: NextRequest) => {
   })
 
   const pinecone = await getPineconeClient()
-  const pineconeIndex = pinecone.Index('quill')
+  const pineconeIndex = pinecone.Index('askpdf')
 
   const vectorStore = await PineconeStore.fromExistingIndex(
     embeddings,
     {
       pineconeIndex,
-      namespace: file.id,
+      // namespace: file.id,
     }
   )
 
@@ -64,7 +64,6 @@ export const POST = async (req: NextRequest) => {
     message,
     4
   )
-
   const prevMessages = await db.message.findMany({
     where: {
       fileId,
