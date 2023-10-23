@@ -43,7 +43,7 @@ const UploadDropzone = ({
     }
   )
 
-  const startSimulatedProgress = () => {
+  const startSimulatedProgress = ():any => {
     setUploadProgress(0)
 
     const interval = setInterval(() => {
