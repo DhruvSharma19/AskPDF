@@ -70,6 +70,7 @@ const onUploadComplete = async ({
     const { subscriptionPlan } = metadata
     const { isSubscribed } = subscriptionPlan
 
+
     const isProExceeded =
       pagesAmt >
       PLANS.find((plan) => plan.name === 'Pro')!.pagesPerPdf
@@ -77,7 +78,6 @@ const onUploadComplete = async ({
       pagesAmt >
       PLANS.find((plan) => plan.name === 'Free')!
         .pagesPerPdf
-
     if (
       (isSubscribed && isProExceeded) ||
       (!isSubscribed && isFreeExceeded)
@@ -94,7 +94,7 @@ const onUploadComplete = async ({
 
     // vectorize and index entire document
     const pinecone = await getPineconeClient()
-    const pineconeIndex = pinecone.Index('quill')
+    const pineconeIndex = pinecone.Index('askpdf')
 
     const embeddings = new OpenAIEmbeddings({
       openAIApiKey: process.env.OPENAI_API_KEY,
@@ -105,7 +105,7 @@ const onUploadComplete = async ({
       embeddings,
       {
         pineconeIndex,
-        namespace: createdFile.id,
+        // namespace: createdFile.id,
       }
     )
 
@@ -118,6 +118,7 @@ const onUploadComplete = async ({
       },
     })
   } catch (err) {
+    console.log("in the catch")
     await db.file.update({
       data: {
         uploadStatus: 'FAILED',
