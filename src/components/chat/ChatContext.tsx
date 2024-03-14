@@ -19,9 +19,9 @@ type StreamResponse = {
 }
 
 export const ChatContext = createContext<StreamResponse>({
-  addMessage: () => {},
+  addMessage: () => { },
   message: '',
-  handleInputChange: () => {},
+  handleInputChange: () => { },
   isLoading: false,
 })
 

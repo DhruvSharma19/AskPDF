@@ -26,7 +26,7 @@ const ChatWrapper = ({
       {
         refetchInterval: (data) =>
           data?.status === 'SUCCESS' ||
-          data?.status === 'FAILED'
+            data?.status === 'FAILED'
             ? false
             : 500,
       }
@@ -87,9 +87,9 @@ const ChatWrapper = ({
               plan supports up to{' '}
               {isSubscribed
                 ? PLANS.find((p) => p.name === 'Pro')
-                    ?.pagesPerPdf
+                  ?.pagesPerPdf
                 : PLANS.find((p) => p.name === 'Free')
-                    ?.pagesPerPdf}{' '}
+                  ?.pagesPerPdf}{' '}
               pages per PDF.
             </p>
             <Link

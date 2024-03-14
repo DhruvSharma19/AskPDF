@@ -16,7 +16,7 @@ const Page = async () => {
     }
   })
 
-  if(!dbUser) redirect('/auth-callback?origin=dashboard')
+  if (!dbUser) redirect('/auth-callback?origin=dashboard')
 
   const subscriptionPlan = await getUserSubscriptionPlan()
 

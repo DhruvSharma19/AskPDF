@@ -43,7 +43,15 @@ const UploadDropzone = ({
     }
   )
 
+<<<<<<< Updated upstream
   const startSimulatedProgress = ():any => {
+=======
+<<<<<<< HEAD
+  const startSimulatedProgress = (): any => {
+=======
+  const startSimulatedProgress = ():any => {
+>>>>>>> a72fd59f1e987d6ba0560d82ba01e755955fe489
+>>>>>>> Stashed changes
     setUploadProgress(0)
 
     const interval = setInterval(() => {
