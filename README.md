@@ -14,40 +14,6 @@ Website Link : https://askpdf-amber.vercel.app/
 
 📄 **A Beautiful And Highly Functional PDF Viewer**: The heart of AskPDF, a feature-rich PDF viewer that empowers users to interact with their documents.
 
-- 🛠️ Complete SaaS Built From Scratch
-- 💻 Beautiful Landing Page & Pricing Page Included
-- 💳 Free & Pro Plan Using Stripe
-- 📄 A Beautiful And Highly Functional PDF Viewer
-- 🔄 Streaming API Responses in Real-Time
-- 🔒 Authentication Using Kinde
-- 🎨 Clean, Modern UI Using 'shadcn-ui'
-- 🚀 Optimistic UI Updates for a Great UX
-- ⚡ Infinite Message Loading for Performance
-- 📤 Intuitive Drag n’ Drop Uploads
-- ✨ Instant Loading States
-- 🔧 Modern Data Fetching Using tRPC & Zod
-- 🧠 LangChain for Infinite AI Memory
-- 🌲 Pinecone as our Vector Storage
-- 📊 Prisma as our ORM
-- 🔤 100% written in TypeScript
-- 🎁 ...much more
-
-# AskPDF - Your Ultimate PDF Question Answering Web Application
-
-AskPDF is a powerful web application that enables users to interact with PDF documents like never before. With a stunning user interface, seamless integration of essential tools, and real-time AI assistance, AskPDF takes your PDF experience to the next level.
-
-Website Link : https://askpdf-amber.vercel.app/
-
-## Features
-
-🛠️ **Complete SaaS Built From Scratch**: AskPDF has been built from the ground up, ensuring a clean, efficient, and secure platform.
-
-💻 **Beautiful Landing Page & Pricing Page Included**: Aesthetically pleasing and informative landing and pricing pages to showcase your service.
-
-💳 **Free & Pro Plan Using Stripe**: Easily monetize your application with Stripe integration, offering both free and premium pricing plans.
-
-📄 **A Beautiful And Highly Functional PDF Viewer**: The heart of AskPDF, a feature-rich PDF viewer that empowers users to interact with their documents.
-
 🔄 **Streaming API Responses in Real-Time**: Deliver real-time feedback and results using efficient API streaming.
 
 🔒 **Authentication Using Kinde**: Ensure user data security with authentication through Kinde.
@@ -98,7 +64,4 @@ Website Link : https://askpdf-amber.vercel.app/
 - Zod
 - Kinde
 - shadcn-ui
-<<<<<<< Updated upstream
-=======
->>>>>>> a72fd59f1e987d6ba0560d82ba01e755955fe489
->>>>>>> Stashed changes
+
