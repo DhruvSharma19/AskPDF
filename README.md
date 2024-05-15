@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # AskPDF - Your Ultimate PDF Question Answering Web Application
 
 AskPDF is a powerful web application that enables users to interact with PDF documents like never before. With a stunning user interface, seamless integration of essential tools, and real-time AI assistance, AskPDF takes your PDF experience to the next level.
@@ -14,10 +13,6 @@ Website Link : https://askpdf-amber.vercel.app/
 💳 **Free & Pro Plan Using Stripe**: Easily monetize your application with Stripe integration, offering both free and premium pricing plans.
 
 📄 **A Beautiful And Highly Functional PDF Viewer**: The heart of AskPDF, a feature-rich PDF viewer that empowers users to interact with their documents.
-
-=======
-<<<<<<< HEAD
-
 
 - 🛠️ Complete SaaS Built From Scratch
 - 💻 Beautiful Landing Page & Pricing Page Included
@@ -36,7 +31,7 @@ Website Link : https://askpdf-amber.vercel.app/
 - 📊 Prisma as our ORM
 - 🔤 100% written in TypeScript
 - 🎁 ...much more
-=======
+
 # AskPDF - Your Ultimate PDF Question Answering Web Application
 
 AskPDF is a powerful web application that enables users to interact with PDF documents like never before. With a stunning user interface, seamless integration of essential tools, and real-time AI assistance, AskPDF takes your PDF experience to the next level.
@@ -53,7 +48,6 @@ Website Link : https://askpdf-amber.vercel.app/
 
 📄 **A Beautiful And Highly Functional PDF Viewer**: The heart of AskPDF, a feature-rich PDF viewer that empowers users to interact with their documents.
 
->>>>>>> Stashed changes
 🔄 **Streaming API Responses in Real-Time**: Deliver real-time feedback and results using efficient API streaming.
 
 🔒 **Authentication Using Kinde**: Ensure user data security with authentication through Kinde.
