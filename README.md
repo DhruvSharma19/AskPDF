@@ -1,15 +1,23 @@
-# AskPDF - Your Ultimate PDF Question Answering Web Application
+# AskPDF - Your Ultimate PDF Question Answering Web Application 💡
 
 AskPDF is a powerful web application that enables users to interact with PDF documents like never before. With a stunning user interface, seamless integration of essential tools, and real-time AI assistance, AskPDF takes your PDF experience to the next level.
 
-![askpdf](https://github.com/DhruvSharma19/AskPDF/assets/112254552/c5b33ec3-f892-4782-8a81-e7c17e6017d5)_17174_diagrams.helpful.dev.jpeg…]()
+🧑‍💻 **Test User:** testUser@gmail.com  
+🔐 **Password:** 12345678
+
+🌐 **Website Link:** [AskPDF](https://askpdf-amber.vercel.app/)
+
+## 🎬 Demo Video
+
+## 🛠️ System Diagrams
+
 ![skpdf](https://github.com/DhruvSharma19/AskPDF/assets/112254552/a4828bac-86d9-4acf-a856-2ddb5ea7db10)
+![askpdf](https://github.com/DhruvSharma19/AskPDF/assets/112254552/c5b33ec3-f892-4782-8a81-e7c17e6017d5)
 ![Screenshot_3-6-2024_17174_diagrams helpful dev](https://github.com/DhruvSharma19/AskPDF/assets/112254552/9dbd0d90-5374-4014-9250-b433bd38a601)
 
 
-Website Link : https://askpdf-amber.vercel.app/
 
-## Features
+## ✨ Features
 
 🛠️ **Complete SaaS Built From Scratch**: AskPDF has been built from the ground up, ensuring a clean, efficient, and secure platform.
 
@@ -43,7 +51,25 @@ Website Link : https://askpdf-amber.vercel.app/
 
 🔤 **100% written in TypeScript**: A robust codebase entirely written in TypeScript for better maintainability and reliability.
 
+## 🛠 Technologies Used
 
+### Frontend Tools 🖥️
+
+- Next.js 13.5 App Router: Efficient client-side routing and server-side rendering.
+- Tailwind CSS: Utility-first CSS framework for rapid UI development.
+
+### Backend Tools ⚙️
+
+- tRPC: TypeScript-centric RPC framework for scalable APIs.
+- Prisma: Modern database toolkit for TypeScript and Node.js.
+- Kinde: Secure authentication service for user data protection.
+
+### Storage and Database 🗄️
+
+- Neon Tech Database: High-performance database technology.
+- Pinecone: Efficient vector storage service.
+
+## 🖼️ Screenshots
 
 ![Web capture_18-12-2023_141215_askpdf-amber vercel app](https://github.com/DhruvSharma19/askpdf/assets/112254552/8852c362-5dc1-4f91-93a2-7a2e1f3e5a27)
 ![Web capture_18-12-2023_141158_askpdf-amber vercel app](https://github.com/DhruvSharma19/askpdf/assets/112254552/10ecb33d-5121-4ee2-9324-21861e132cfb)
@@ -53,20 +79,75 @@ Website Link : https://askpdf-amber.vercel.app/
 ![Web capture_18-12-2023_141231_askpdf-amber vercel app](https://github.com/DhruvSharma19/askpdf/assets/112254552/68d301d8-e379-4265-9e86-b9a2ec598ddd)
 
 
+## 🚀 Getting Started
 
-## Tech Stack
+To get started with AskPDF, follow these steps:
 
-- Next.js 13.5 App Router
-- tRPC
-- TypeScript
-- Prisma
-- Tailwind CSS
-- Stripe
-- Neon Tech Database
-- OpenAI
-- LangChain
-- Pinecone
-- Zod
-- Kinde
-- shadcn-ui
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/DhruvSharma19/AskPDF.git
+   cd AskPDF
+   ```
 
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Set Up Environment Variables**:
+   Create a `.env` file in the root directory and add the necessary environment variables.
+
+4. **Run the Development Server**:
+   ```bash
+   npm run dev
+   ```
+   The application should now be running on `http://localhost:3000`.
+
+5. **Build for Production**:
+   ```bash
+   npm run build
+   npm start
+   ```
+
+## 🤝 Contributions
+
+We welcome contributions to AskPDF! To contribute:
+
+1. **Fork the Repository**:
+   Click the "Fork" button at the top right corner of the repository page.
+
+2. **Clone Your Fork**:
+   ```bash
+   git clone https://github.com/your-username/AskPDF.git
+   cd AskPDF
+   ```
+
+3. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+4. **Make Your Changes**:
+   Implement your feature or fix the bug.
+
+5. **Commit Your Changes**:
+   ```bash
+   git add .
+   git commit -m "Add your commit message here"
+   ```
+
+6. **Push to Your Fork**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+7. **Create a Pull Request**:
+   Open a pull request from your forked repository's branch to the main branch of the original repository.
+
+We appreciate your contributions and will review your pull request as soon as possible!
+
+## 🙏 Acknowledgements
+
+A big thank you to everyone who contributed to this project! We appreciate your support and feedback.
+
+If you have any questions or need assistance, feel free to open an issue or reach out to the project maintainers. Enjoy using AskPDF and happy coding! ✨
