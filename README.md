@@ -71,13 +71,12 @@ AskPDF is a powerful web application that enables users to interact with PDF doc
 
 ## 🖼️ Screenshots
 
+![Web capture_18-12-2023_14100_askpdf-amber vercel app](https://github.com/DhruvSharma19/askpdf/assets/112254552/2544d7e8-e384-4eb4-b30a-64261e9638cd)
+![Web capture_18-12-2023_141020_askpdf-amber vercel app](https://github.com/DhruvSharma19/askpdf/assets/112254552/f880c1d7-fac3-4f22-bb6b-a1aca4b8cdaa)
+![Web capture_18-12-2023_141053_askpdfclone kinde com](https://github.com/DhruvSharma19/askpdf/assets/112254552/04d31467-c1a9-483e-b270-5cc8a6583c1c)
+![Web capture_18-12-2023_141231_askpdf-amber vercel app](https://github.com/DhruvSharma19/askpdf/assets/112254552/68d301d8-e379-4265-9e86-b9a2ec598ddd)
 ![Web capture_18-12-2023_141215_askpdf-amber vercel app](https://github.com/DhruvSharma19/askpdf/assets/112254552/8852c362-5dc1-4f91-93a2-7a2e1f3e5a27)
 ![Web capture_18-12-2023_141158_askpdf-amber vercel app](https://github.com/DhruvSharma19/askpdf/assets/112254552/10ecb33d-5121-4ee2-9324-21861e132cfb)
-![Web capture_18-12-2023_141053_askpdfclone kinde com](https://github.com/DhruvSharma19/askpdf/assets/112254552/04d31467-c1a9-483e-b270-5cc8a6583c1c)
-![Web capture_18-12-2023_141020_askpdf-amber vercel app](https://github.com/DhruvSharma19/askpdf/assets/112254552/f880c1d7-fac3-4f22-bb6b-a1aca4b8cdaa)
-![Web capture_18-12-2023_14100_askpdf-amber vercel app](https://github.com/DhruvSharma19/askpdf/assets/112254552/2544d7e8-e384-4eb4-b30a-64261e9638cd)
-![Web capture_18-12-2023_141231_askpdf-amber vercel app](https://github.com/DhruvSharma19/askpdf/assets/112254552/68d301d8-e379-4265-9e86-b9a2ec598ddd)
-
 
 ## 🚀 Getting Started
 
