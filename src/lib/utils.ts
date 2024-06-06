@@ -50,18 +50,9 @@ export function constructMetadata({
     ...(noIndex && {
       robots: {
         index: false,
-<<<<<<< HEAD
         follow: false,
       },
     }),
   };
-=======
-        follow: false
-      }
-    })
-  }
-<<<<<<< Updated upstream
-=======
->>>>>>> a72fd59f1e987d6ba0560d82ba01e755955fe489
->>>>>>> Stashed changes
+
 }

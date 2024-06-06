@@ -67,23 +67,11 @@ const onUploadComplete = async ({
     const { subscriptionPlan } = metadata;
     const { isSubscribed } = subscriptionPlan;
 
-
-
     const isProExceeded =
       pagesAmt > PLANS.find((plan) => plan.name === "Pro")!.pagesPerPdf;
     const isFreeExceeded =
-<<<<<<< HEAD
       pagesAmt > PLANS.find((plan) => plan.name === "Free")!.pagesPerPdf;
     if ((isSubscribed && isProExceeded) || (!isSubscribed && isFreeExceeded)) {
-=======
-      pagesAmt >
-      PLANS.find((plan) => plan.name === 'Free')!
-        .pagesPerPdf
-    if (
-      (isSubscribed && isProExceeded) ||
-      (!isSubscribed && isFreeExceeded)
-    ) {
->>>>>>> a72fd59f1e987d6ba0560d82ba01e755955fe489
       await db.file.update({
         data: {
           uploadStatus: "FAILED",
@@ -95,36 +83,18 @@ const onUploadComplete = async ({
     }
 
     // vectorize and index entire document
-<<<<<<< HEAD
+
     const pinecone = await getPineconeClient();
     const pineconeIndex = pinecone.Index("askpdf");
-=======
-    const pinecone = await getPineconeClient()
-    const pineconeIndex = pinecone.Index('askpdf')
-<<<<<<< Updated upstream
-=======
->>>>>>> a72fd59f1e987d6ba0560d82ba01e755955fe489
->>>>>>> Stashed changes
 
     const embeddings = new OpenAIEmbeddings({
       openAIApiKey: process.env.OPENAI_API_KEY,
     });
 
-<<<<<<< HEAD
     await PineconeStore.fromDocuments(pageLevelDocs, embeddings, {
       pineconeIndex,
       // namespace: createdFile.id,
     });
-=======
-    await PineconeStore.fromDocuments(
-      pageLevelDocs,
-      embeddings,
-      {
-        pineconeIndex,
-        // namespace: createdFile.id,
-      }
-    )
->>>>>>> a72fd59f1e987d6ba0560d82ba01e755955fe489
 
     await db.file.update({
       data: {
@@ -135,15 +105,7 @@ const onUploadComplete = async ({
       },
     });
   } catch (err) {
-<<<<<<< Updated upstream
-    console.log("in the catch")
-=======
-<<<<<<< HEAD
     console.log("in the catch");
-=======
-    console.log("in the catch")
->>>>>>> a72fd59f1e987d6ba0560d82ba01e755955fe489
->>>>>>> Stashed changes
     await db.file.update({
       data: {
         uploadStatus: "FAILED",

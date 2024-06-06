@@ -46,7 +46,6 @@ export const POST = async (req: NextRequest) => {
     openAIApiKey: process.env.OPENAI_API_KEY,
   });
 
-<<<<<<< HEAD
   const pinecone = await getPineconeClient();
   const pineconeIndex = pinecone.Index("askpdf");
 
@@ -56,26 +55,7 @@ export const POST = async (req: NextRequest) => {
   });
 
   const results = await vectorStore.similaritySearch(message, 4);
-=======
-  const pinecone = await getPineconeClient()
-  const pineconeIndex = pinecone.Index('askpdf')
 
-  const vectorStore = await PineconeStore.fromExistingIndex(
-    embeddings,
-    {
-      pineconeIndex,
-      // namespace: file.id,
-    }
-  )
-
-  const results = await vectorStore.similaritySearch(
-    message,
-    4
-  )
-<<<<<<< Updated upstream
-=======
->>>>>>> a72fd59f1e987d6ba0560d82ba01e755955fe489
->>>>>>> Stashed changes
   const prevMessages = await db.message.findMany({
     where: {
       fileId,
